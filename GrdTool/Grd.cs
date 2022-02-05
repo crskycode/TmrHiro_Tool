@@ -146,7 +146,7 @@ namespace GrdTool
 
             // Write pixel data
 
-            if (a_data != null)
+            if (a_data.Length != 0)
             {
                 writer.Write(a_data);
             }
